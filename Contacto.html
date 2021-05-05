@@ -53,66 +53,75 @@
    
     <main>
       
-      <div class="container text-center">
+      <div class="container">
         <br>
         <h4>Déjenos su consulta y nos comunicaremos a la brevedad</h4>
         <br>
-      </div>
-                
-      <!--section id="formulario"-->
-
-        <div class="container">
-          <div class="row justify-content-center">
-              <div class="col-lg-4 col-md-4 col-sm-4">
-                 <form action="" method="GET">
-                  <fieldset>
-                  <div class="mb-3">  
-                    <label for="nombre" class="form-label">Nombre</label>
-                    <input type="text" class="form-control" id="nombre">
-                  </div>
-                  <div class="mb-3">
-                    <label for="emailAdress" class="form-label">Ingrese su email</label>
-                    <input type="email" class="form-control" id="emailAdress" aria-describedby="emailHelp">
-                    <div id="emailHelp" class="form-text">No compartimos esta informacion con terceros</div>
-                  </div>       
-                  <div class="mb-3">
-                    <label for="Clave class="form-label">Clave</label>
-                    <input type="password" class="form-control" id="clave">
-                  </div>
-                  <label for="solucion">En que solucion está interesado?</label>
-                    <select name="solucion" id="solucion">
-                        <option value="C">Comercial</option>
-                        <option value="R">Residencial</option>
-                        <option value="O">Otro</option>
-
-                    </select>
-
-                  <br>
-                  <br>
-                  <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Quiere suscribirse a nuestras novedades?</label>
-                  </div>
-                  <button type="submit" class="btn btn-primary">Enviar</button>
+      
+        <div class="row justify-content-evenly">
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <img src="imagenes/oficina.jpg" class="img-fluid"  alt="vista de edificio de oficinas">
+          </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <form action="formulario.php" method="POST">
+                <fieldset>
+                <div class="mb-3">  
+                  <label for="nombre" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="nombre">
+                </div>
+                <div class="mb-3">
+                  <label for="emailAdress" class="form-label">Ingrese su email</label>
+                  <input type="email" class="form-control" id="emailAdress" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">No compartimos esta informacion con terceros</div>
+                </div>       
+                <!--
+                    <div class="mb-3">
+                      <label for="Clave class="form-label">Clave</label>
+                      <input type="password" class="form-control" id="clave">
+                    </div>
+                -->
+                <label for="solucion">En que solución está interesado?</label>
+                <select name="solucion" id="solucion">
+                    <option value="C">Comercial</option>
+                    <option value="R">Residencial</option>
+                    <option value="O">Otro</option>
+                </select>
+                <br>
+                <br>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Quiere suscribirse a nuestras novedades?</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
                 </fieldset>
-                </form>
+              </form>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-4">
+              <div class="card" style="width: 18rem;">
+                <img src="imagenes/mapa.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Puertos, Escobar</h5>
+                    <p class="card-text">Av. de los Lagos s/n - Oficina 4° B
+                      Plaza Central <br>
+                      Whatsapp 11-6404-7200 <br>
+                      info@solaring.com.ar
+                    </p>
+                  <!--  <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                  </div>
               </div>
             </div>
-          </div>
-          <br>
-          
-
+        </div>
+        <br>
     </main>
-  
     
-      <footer class="nav flex-column flex-sm-row">
+    <footer class="nav flex-column flex-sm-row">
   
-          <a class="flex-sm-fill text-center nav-link txt" href="#">Facebook</a>
-          <a class="flex-sm-fill text-center nav-link txt" href="#">LinkedIn</a>
-          <a class="flex-sm-fill text-center nav-link txt" href="#">Instagram</a>
-          <a class="flex-sm-fill text-center nav-link txt" href="#">YouTube</a>
+          <a class="flex-sm-fill text-center nav-link txt" href="https://www.facebook.com/solar.ing.ar" target="_blank">Facebook</a>
+          <a class="flex-sm-fill text-center nav-link txt" href="https://www.linkedin.com/company/27116044/" target="_blank">LinkedIn</a>
+          <a class="flex-sm-fill text-center nav-link txt" href="https://www.instagram.com/solar.ing_ar" target="_blank">Instagram</a>
+          <a class="flex-sm-fill text-center nav-link txt" href="https://www.youtube.com/solar.ing_ar" target="_blank">YouTube</a>
  
-      </footer>
+    </footer>
      
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>

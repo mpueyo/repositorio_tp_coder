@@ -1,4 +1,6 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import "video";
+
 .cabecera{
     align-items: center;
     font-family: Raleway;
@@ -86,3 +88,4 @@ nav{
 footer{
     background-color:rgb(183, 203, 214);
 }
+

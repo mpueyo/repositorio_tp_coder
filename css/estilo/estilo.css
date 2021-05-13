@@ -7503,6 +7503,18 @@ textarea.form-control-lg {
   min-width: 100%;
   min-height: 100%; }
 
+.main-img {
+  position: absolute;
+  top: 50;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden; }
+
+.main-img img {
+  min-width: 100%;
+  min-height: 100%; }
+
 .main-overlay {
   height: 100vh;
   width: 100vw;
@@ -7511,7 +7523,17 @@ textarea.form-control-lg {
   left: 0;
   background: #303952;
   z-index: 1;
-  opacity: 0.75; }
+  opacity: 0.6; }
+
+.main-overlay-img {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 50;
+  left: 0;
+  background: #303952;
+  z-index: 1;
+  opacity: 0.4; }
 
 .main-content {
   z-index: 2; }
@@ -7569,6 +7591,15 @@ textarea.form-control-lg {
 #avatar2 {
   height: 85px;
   width: 85px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  background-size: 100% auto;
+  background-color: white; }
+
+#avatar3 {
+  height: 250px;
+  width: 250px;
   background-repeat: no-repeat;
   background-position: 50%;
   border-radius: 50%;

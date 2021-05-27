@@ -1,4 +1,6 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import "video";
+
 .cabecera{
     align-items: center;
     font-family: Raleway;
@@ -35,6 +37,16 @@
 #avatar2 {
     height:85px;
     width: 85px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+    background-color: rgb(255, 255, 255);
+}
+#avatar3 {
+    
+    height: 250px;
+    width: 250px;
     background-repeat: no-repeat;
     background-position: 50%;
     border-radius: 50%;
@@ -86,3 +98,4 @@ nav{
 footer{
     background-color:rgb(183, 203, 214);
 }
+
